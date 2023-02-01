@@ -1,0 +1,312 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="main-logo">
+            <i class="fa-solid fa-code"></i>
+            <span>CodeitUP.com</span>
+          </div>
+          <ul id="sidemenu">
+            <li><a href="#header"><span>Home</span></a></li>
+            <li><a href="#about"><span>About</span></a></li>
+            <li><a href="#services"><span>Services</span></a></li>
+            <li><a href="#portfolio"><span>My Work</span></a></li>
+            <li><a href="#contact"><span>Contact</span></a></li>
+
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="content-box">
+        <div class="header-text">
+          <h1>
+            Hi, I'm <span>Shivam Saxena</span><br />
+            From India.
+          </h1>
+          <p id="subtitle">I am Front End Developer</p>
+          <div class="blink-box">
+            <span class="languages"></span>
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="./images/vecteezy_programmer-people-concept-use-laptop-and-programming-code_ [Converted].png" alt="programmer-image-reference" srcset="">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!----------------------------- about ------------------------------------------->
+    <div id="about">
+      <div class="content-box about-box">
+        <div class="img-section img-about">
+          <img src="./images/charlesdeluvio-DgoyKNgPiFQ-unsplash.jpg" alt="" srcset="">
+        </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              To succeed an environment of growth and excellence and earn a job
+              which provides me job satisfaction and self development and help
+              me to achieve personal as well as organisational development
+            </p>
+
+            <div class="tab-tities">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span></span><br />Data Structure & Algorithm</li>
+                <li><span></span><br />JAVA</li>
+                <li><span></span><br />HyperText Markup Language</li>
+                <li><span></span><br />Cascading Style Sheets</li>
+                <li><span></span><br />JavaScript</li>
+                <li><span></span><br />React JS</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>Newton School Coding Bootcamp<br />
+                <li><span>May 22 - present</span><br />
+                    <li>Full Stack Web Development along with problem solving.
+                    </li>
+                    <li>Technical Stack Learned : React JS, JavaScript, CSS, HTML, Data Structure, Java. 
+                    </li>
+                    <li>Participated in various coding contest organized by the platform.
+                    </li>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022</span><br />
+                  FUll Stack Web Development course
+                </li>
+                <li><span>2018</span><br />Bachelor's in Science (Mathematics)</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!------------------------------------ services ------------------------------------->
+    <div id="services">
+      <div class="box">
+        <h1 class="sub-title-1">My Services</h1>
+        <div class="services-list content-box">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              voluptatum deserunt dolorem magni laborum. Dignissimos quasi
+              distinctio laudantium soluta repellendus rem natus iusto corrupti
+              nam doloribus, perspiciatis, sapiente harum eos.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              voluptatum deserunt dolorem magni laborum. Dignissimos quasi
+              distinctio laudantium soluta repellendus rem natus iusto corrupti
+              nam doloribus, perspiciatis, sapiente harum eos.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              voluptatum deserunt dolorem magni laborum. Dignissimos quasi
+              distinctio laudantium soluta repellendus rem natus iusto corrupti
+              nam doloribus, perspiciatis, sapiente harum eos.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------------------- portfolio --------------------------------------------->
+    <div id="portfolio">
+      <div class="box">
+        <h1 class="sub-title-1">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="./images/jonathan-francisca-7httEEXyxrc-unsplash.jpg" alt="">
+            <div class="layer">
+              <h3>HTML Mini App User Interfaces</h3>
+              <div class="list-heading"><span> Apps</span> <i class="fa-solid fa-plus" id="add-icon-mini"></i></div>
+                <ul class="mini-app-list " > 
+                    <li>
+                  <div>
+                      <span>Calendar <br>
+                      <a href="https://shivam1996saxena.github.io/Calendar/" target="_blank">Run code</a>
+                      <a href="https://github.com/shivam1996saxena/Calendar" target="_blank">Source Code</a>
+                    </span>
+                  </div>
+                    <i class="fa-regular fa-calendar icon-mini-app"></i></li>
+                    <li>
+                      <span>OTP Verify<br>
+                      <a href="https://shivam1996saxena.github.io/HTML-CSS-Project---HTML-CSS---PROJECT---ex5xopdb5r4v/" target="_blank">Run code</a>
+                      <a href="https://github.com/shivam1996saxena/HTML-CSS-Project---HTML-CSS---PROJECT---ex5xopdb5r4v " target="_blank">Source Code</a>
+                    </span><i class="fa-solid fa-check"></i></i></li>
+                    <li>
+                      <span>
+                        Stop Watch <br>
+                      <a href="http://" target="_blank">Run code</a>
+                      <a href="http://" target="_blank">Source Code</a>
+                    </span><i class="fa-solid fa-stopwatch icon-mini-app"></i></li>
+                </ul>
+            </div>
+          </div>
+          <div class="work">
+            <img src="./images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="">
+            <div class="layer">
+              <h3>React, JavaScript App User Interfaces</h3>
+              <div class="list-heading"><span> Apps</span> <i class="fa-solid fa-plus add-icon"></i></div>
+                <ul class="mini-app-list2 " > 
+                    <li><span>Task Manager <br>
+                      <a href="http://" target="_blank">Demo</a>
+                      <a href="http://" target="_blank">Source Code</a>
+                    </span><i class="fa-regular fa-calendar icon-mini-app"></i></li>
+                    <li>
+                      <span>Calculator <br>
+                      <a href="http://" target="_blank">Demo</a>
+                      <a href="http://" target="_blank">Source Code</a>
+                    </span>
+                    <i class="fa-solid fa-calculator icon-mini-app"></i></li>
+                    <li>
+                      <span>
+                        Stop Watch <br>
+                        <a href="http://" target="_blank">Demo</a>
+                        <a href="http://" target="_blank">Source Code</a>
+                      </span>
+                      <i class="fa-solid fa-stopwatch icon-mini-app"></i></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------- contact ------------------------------------------------->
+
+    <div id="contact">
+      <div class="box">
+        <h1 class="sub-title-1">Contact Me</h1>
+        <div class="row">
+          <div class="contact-left">
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> shivamsaxena1996@outlook.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> 6395420354</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/jaimahakaal.108"
+                 target="_blank"><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/viraaj.saxena/"
+                 target="_blank"><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/shivam-saxena-990449b2/"
+                 target="_blank"><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://twitter.com/ShivamS34540620"
+                 target="_blank"><i class="fa-brands fa-square-twitter"></i
+              ></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn3"><span>Download CV</span></a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright Shivam. <i class="fa-solid fa-heart"></i> Thank You</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('.languages',{
+          strings: ['JavaScript','html','CSS','Java','React'],
+          typeSpeed: 150,
+          backSpeed: 150,
+          loop: true
+          });
+    </script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "200px";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script
+      src="https://kit.fontawesome.com/f4c7987317.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
